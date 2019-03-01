@@ -1,7 +1,7 @@
 # MercadoDeHerois
 Versão 1.0
 Mercado de Heróis é uma plataforma de cards de personagens da Marvel, onde o usuário pode visualizar os heróis e seus quadrinhos.
-Neste projeto foram utilizados as ferramentas de desenvolvimento como , HTML, CSS, BOOTSTRAP  e ANGULAR o sistema foi desenvolvido no Sistema Operacional Windows 7,
+Neste projeto foram utilizados algumas  ferramentas de desenvolvimento como , HTML, CSS, BOOTSTRAP  e ANGULAR o sistema foi desenvolvido no Sistema Operacional Windows 7,
 a IDE de desenvolvimento foi Visual Studio Code .
 
 Guia de Instalação:

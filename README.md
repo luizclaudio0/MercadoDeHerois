@@ -12,7 +12,7 @@ Autoria e contribuições :
 
 Autor: Luiz Claudio Trindade De Souza Filho
 
-Contribuidores: https://angular.io
+Contribuidores: https://angular.io/docs
 
 Linguagem de programação 
 Angular.

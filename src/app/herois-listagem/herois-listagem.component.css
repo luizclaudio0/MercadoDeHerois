@@ -1,0 +1,93 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: -17px;
+}
+.navbar-nav{
+    padding-left: 433px;
+}
+#novidades{
+    text-align:center; color:black
+}
+#capta-marvel{
+    color:red; text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #0d0ba9, 0 -1px #0400ff;
+}
+.img-fluid{
+    width: 100% !important;
+}
+.card{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+.btn-outline-success{
+    color:white;
+    background-color:red;
+    border-color:black;
+}
+.mt-100 {
+    margin-top: 100px; 
+}
+.footer {
+    color: #887;
+    background-color: #eee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content {
+    position: relative;
+    display: table;
+    width: 100%;
+    min-height: 100vh;
+}
+.pull-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.phone {
+    position: relative;
+    max-width: 271px;
+    margin: 0 auto;
+    padding: 8px 10px 12px;
+    border: 2px solid #ea3c3c;
+    border-radius: 20px;
+    background-color: #222;
+    box-shadow: 20px 20px 40px #887;
+}
+#img-x{
+    width: 247px !important;
+}
+
+
+.offset-md-3 {
+    margin-left: 11%;
+}
+
+.mt-100[_ngcontent-c1] {
+    margin-top: 99px;
+}
+
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #000000bf;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #000000bf;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}

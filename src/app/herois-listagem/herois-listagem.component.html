@@ -1,0 +1,89 @@
+
+<!-- Imagem inicial da tela com todos os personagens marvel-->
+<img src="https://pm1.narvii.com/6322/c8d65678a26dbbb6976ad6897f1047ba88e57539_hq.jpg" class="img-fluid" alt="Imagem responsiva">
+<!--Sessão de descrição do produto e de quem é a marvel comics-->
+<section class="section">
+      <div class="row">
+          <div class=" col-md-3 offset-md-3">
+              <div class="content">
+                  <div class="pull-middle" id="quemSomos">
+                      <h4><strong>Produtos.</strong></h4>
+                      <p>As Figurinhas Marvel são as melhores figurinhas do Mercado ,
+                        os cards são incrivéis um melhor que o outro o que está esperando para
+                        dar uma olhada ?
+                      </p><small><a href="#cards">Clique aqui para ver os cards</a></small>
+                  </div>
+              </div>
+          </div>
+         <div class="col-md-4 col-md-offset-1 mt-100 mb-100">
+              <div class="phone">
+                  <img class="img-fluid" id="card"  src="https://pm1.narvii.com/6322/c8d65678a26dbbb6976ad6897f1047ba88e57539_hq.jpg">
+              </div>
+          </div>
+          <div class="col-md-3 col-md-offset-1">
+              <div class="content">
+                  <div class="pull-middle" id="QuemSomos">
+                      <h4><strong>Quem Somos:</strong></h4>
+                      <p>Marvel Comics, 
+                        anteriormente Marvel Publishing Inc e Marvel Comics Group é uma editora de quadrinhos americanos e mídia relacionada a este ramo.
+                         Hoje, a Marvel Comics é considerada atualmente a maior editora de histórias em quadrinhos dos Estados Unidos e do mundo. 
+                         Em 2009...</p>
+                        <a class="btn btn-outline-success my-2 my-sm-0" href="https://pt.wikipedia.org/wiki/Marvel_Comics" target="_blank">Clique Aqui para ler mais</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+</section>
+<!--Fim da sessao de apresentação quem somos-->
+
+<!-- Inicio da sessao de novidades -->
+<section class="section">
+    <div class="how-section1">
+            <h4 id="novidades"><strong>Novidades</strong></h4>
+        <div class="row">
+        
+            <div class="phone">
+                <img class="img-fluid"  id="novidades" src="http://t1.gstatic.com/images?q=tbn:ANd9GcTMEDMzGG1lkpnENo3hRNA6TSyZqWuGKc2GR0qg6z3j8Ca3AYlx">
+            </div>
+            <div class="col-md-6">
+                <h4 id="capta-marvel">Capitã Marvel</h4>
+                            <h4 class="subheading">A Capitã Marvel se envolve em uma guerra galáctica entre duas raças alienígenas.</h4>
+                <p class="text-muted"> 
+                    Uma super-heroína com poderes incríveis e um símbolo do feminismo no mundo dos quadrinhos. 
+                    Ela está chegando aos cinemas com seu próprio filme solo em 2019, mas pode aparecer até antes...
+                </p>    
+                <a class="btn btn-outline-success my-2 my-sm-0" href="https://www.aficionados.com.br/capita-marvel/" target="_blank">Clique Aqui para ler mais</a>
+                        
+            </div>
+        </div>
+    </div>
+</section>
+<!--Fim da sessao de novidades -->
+<section>
+    <!-- Inicio da sessao de  listagem dos personagens da marvel -->
+<div class="container" id="cards" style="margin-top: 4%">
+  <div class="row">
+      <!-- *ngFor é responsável pela listagem dos personagens na tela principal-->
+    <div *ngFor="let heroi of herois" class="col-sm">
+        <!-- heroi é a variavel que vai armazenar os valores-->
+            <!-- herois é alista que recebeu todos os personagens da marvel api-->
+      <div>
+          <!-- heroi.url é a variavel que retorna os links dos quadrinhos de cada heroi-->
+        <img src="{{heroi.url}}" alt="Card image cap">
+        <div class="card-block">
+            <h4 class="card-title" ><button  class="btn btn-outline-success my-2 my-sm-0" (click)="acessarQuadrinhos(heroi.detalhes)">{{heroi.name}}</button></h4>
+            <!-- Click redireciona o usuario para pagina de quadrinhos do heroi-->
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--Fim da sessao de listagem dos personagens marvel -->
+<!--Inicio do footer -->
+<footer class="footer text-center">
+    <div class="container">
+        <small>© Copyright 2019. Mercado de Herois <a href="https://www.marvel.com/" target="_blank">Marvel</a></small>
+    </div>
+</footer>
+<!-- Fim do footer-->

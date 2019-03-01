@@ -14,10 +14,10 @@ Autor: Luiz Claudio Trindade De Souza Filho
 
 Contribuidores: https://angular.io/docs
 
-Linguagem de programação 
+Linguagem de programação :
 Angular.
 
-Assinatura com apelido 
+Assinatura com apelido: 
 Nome : Luiz Claudio trindade de souza filho
 Apelido : Luiz
 

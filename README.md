@@ -18,7 +18,7 @@ Linguagem de programação :
 Angular.
 
 Assinatura com apelido: 
-Nome : Luiz Claudio trindade de souza filho
+ Luiz Claudio trindade de souza filho
 Apelido : Luiz
 
 Obrigado por sua atenção , espero ter ajudado.
